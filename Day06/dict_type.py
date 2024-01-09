@@ -12,7 +12,7 @@ zodiac = {
 } #dict type
 
 print(zodiac[4])
-'''
+
 
 mbti = {
     'e':'외향적',
@@ -30,3 +30,14 @@ print(mbti['e'])
 personality = input("mbti를 입력하시오.:")
 print(personality[0]) #e
 print(f"당신은 {mbti[personality[0]]}이고, {mbti[personality[1]]}이고, {mbti[personality[2]]}이고, {mbti[personality[3]]}이시군요.")
+'''
+
+instagram = {
+    "신촌맛집":['싸다김밥', '신촌순댓국', '서브웨이']
+    "서강대맛집":{
+        "서강대학식":['한식정식', '오늘의 치돈', '육회덮밥']
+    }
+}
+
+print(instagram["신촌맛집"][2])  #['싸다김밥', '신촌순댓국', '서브웨이'], 서브웨이
+print(instagram["서강대맛집"]["서강대학식"][1])
